@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Shark</title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- JQUERY DOC -->
+<style type="text/css"> @import url(styles/reset_rules.css)</style>
+<style type="text/css">
+	body {
+		font-family: "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+		font-size: 16px;
+	}
+</style>
+<style type="text/css">
+            body {
+                  background-color: #333333;
+            }
+            
+            #mainWrap {
+                  width: 100%; min-width: 1050px;
+                  text-align: center;
+                  //outline: 1px dotted white;
+            }
+            #banner {
+                  width: 100%;
+                  
+                  outline: 1px dotted red;
+            }
+            #mainContent {
+                  width: 40%; display: inline-block; vertical-align: top;
+                  height: 600px;
+                  padding-top: 11em; padding-left: 2em;
+                  border-left: 1px solid #545454; 
+                  //outline: 1px dotted grey;
+            }
+            
+            h1 {font-size: 1.1em; line-height: 2em; text-align: left; padding: 0.5em; color: #FFC322;}
+            h3 {font-size: 1em; line-height: 2em; text-align: left; padding: 0.5em;}
+            p {font-size: 0.8em; line-height: 1.5em; text-align: left; padding: 0.5em; color: #ABABAB;}
+            
+/* NAVIGATION ONLY */
+            #nav {
+                  display: inline-block; vertical-align: top;
+                  min-width: 11em; 
+                  
+                  //outline: 1px dotted olive;
+            }
+            #nav li {
+                  width: 10em; padding: 0.4em; padding-left: 0.8em; text-align: left;
+                  border-bottom: 1px solid #545454; 
+                  
+                  //outline: 1px dotted red;
+            }
+            #nav a {
+                  text-decoration: none; color: #ABABAB; font-size: 0.8em;
+            }
+            #nav img {
+                  width: 11em; padding: 0.5em; border-bottom: 1px solid #545454;
+            }
+/* END NAVIGATION */
+            
+            
+/* ___________________________________________________________________________________________
+GRID :*/ 
+                       
+            .thumb ul {
+                  text-align: justify; //font-size: 0.1px;
+                  
+                  list-style: none; list-style-type: none;
+                  
+                  //outline: 1px dotted red;
+            }
+            .thumb li {
+                  display: inline-block; width: 32%; vertical-align: top;
+                  
+                  list-style: none; list-style-type: none;
+                  padding-top: 0.28em;
+                  
+                  //outline: 1px dotted red;
+            }
+            .thumb img {
+                  display: inline-block;
+                  width: 100%;
+            }
+            .thumb ul:after {
+                  width: 100%;
+                  display: inline-block;
+                  content: ' ';
+            }
+/* ___________________________________________________________________________________________
+SHARK NAV :*/
+            #sharkNav ul {
+                  list-style: none; list-style-type: none;
+            }            
+            #sharkNav {
+                  text-align: justify; width: 100%;
+                  border-bottom: 1px solid #545454; padding-bottom: 0.8em;
+                  //outline: 1px dotted red;
+            }
+            #sharkNav li {
+                  width: 19%;
+                  display: inline-block;
+                  list-style: none; list-style-type: none;
+                  padding-bottom: 1em; padding-top: 1em;
+                  
+                  //outline: 1px dotted red;
+            }
+            #sharkNav:after {
+                  content: " ";
+                  width: 100%;
+                  display: inline-block;
+            }
+            
+            #sharkNav a {font-size: 0.8em; color: #ABABAB; text-decoration: none;}
+</style>
+<script type="text/javascript">
+      $(document).ready(function(){
+	
+            console.log('filename: ' + 'blog');
+    	
+      });
+</script>
+</head>
+
+<body>
+<!--========================================================
+NAV :-->
+<div id="mainWrap">
+
+      <div id="nav">
+            <img src="images/shark/shark_logo_trans_300x300.png" alt="" title="" width="" height="" />
+            <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="skateboarding.html">Skateboarding</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="music.html">Music</a></li>
+                  <li><a href="events.html">Events</a></li>
+                  <li><a href="shark.html">Shark</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+            </ul>
+      </div>
+<!--========================================================
+SHARK NAV :-->
+      <div id="mainContent">
+      
+      <ul id="sharkNav">
+            <li><a href="#">Photography</a></li>
+            <li><a href="sub_shark_writing.html">Writing</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Contact</a></li>
+      </ul>
+<!--========================================================
+END :-->
+      
+      <h1> SHARK </h1>
+      
+      <p>
+            Shark, otherwise known as Arian Chamasmany, is the man behind the fish. Originally a moniker for his DJ project, devised while swimming in the sea, Shark has grown to be much more then just merely a DJ handle. Shark now serves as a sort of pseudonym for Arian in a number of creative exploits, from freelance photography, to DJing and music production.
+      </p>
+      
+<!--
+      <br />
+      <ul class="thumb">
+            <li><a href="#"><img src="images/skateboarding/sb01.jpg" alt="" title="" width="" height="" /></a></li>
+            <li><a href="#"><img src="images/skateboarding/sb02.jpg" alt="" title="" width="" height="" /></a></li>
+            <li><a href="#"><img src="images/skateboarding/sb03.jpg" alt="" title="" width="" height="" /></a></li>
+      </ul>
+      <ul class="thumb">
+            <li><a href="#"><img src="images/skateboarding/sb04.jpg" alt="" title="" width="" height="" /></a></li>
+            <li><a href="#"><img src="images/skateboarding/sb05.jpg" alt="" title="" width="" height="" /></a></li>
+            <li><a href="#"><img src="images/skateboarding/sb06.jpg" alt="" title="" width="" height="" /></a></li>
+      </ul>
+      <ul class="thumb">
+            <li><a href="#"><img src="images/skateboarding/sb07.jpg" alt="" title="" width="" height="" /></a></li>
+            <li><a href="#"><img src="images/skateboarding/sb08.jpg" alt="" title="" width="" height="" /></a></li>
+            <li><a href="#"><img src="images/skateboarding/sb09.jpg" alt="" title="" width="" height="" /></a></li>
+      </ul>
+-->
+      
+      </div>
+</div> <!-- END MAINWRAP --> 
+<!--========================================================
+END NAV :-->
+
+<script type="text/javascript" src="js/shark_05.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+-----------------------------------------------------------------------------
+END
+-->
