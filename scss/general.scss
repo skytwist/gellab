@@ -13,3 +13,10 @@ body {
       text-align: center;
       outline: 1px dotted blue;
 }
+#mainContent {
+      width: 40%; display: inline-block; vertical-align: top;
+      //height: 600px;
+      padding-top: 11em; padding-left: 2em;
+      border-left: 1px solid #EFEFEF; 
+      outline: 1px dotted red;
+}
