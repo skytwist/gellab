@@ -2,3 +2,9 @@ body {
   font-family: verdana, san-serif;
   font-size: 16px;
   color: black; }
+
+#mainWrap {
+  width: 100%;
+  min-width: 1050px;
+  text-align: center;
+  outline: 1px dotted blue; }
